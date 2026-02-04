@@ -19,7 +19,7 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/eden.png`
+		src:`images/snale.png`
 	},
 	states:{
 		//The idle animation 

@@ -19,18 +19,22 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/snale.png`
+		src:`images/Eden_sprites.png`
 	},
+	
 	states:{
 		//The idle animation 
     	idle:
 		{
-			fps:15,
+			
+			fps:20,
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:0, startY:0},
-				{width:128, height:128, startX:128, startY:0}
+				{width:55, height:53, startX:0, startY:0},
+				{width:55, height:53, startX:55, startY:0},
+				{width:55, height:53, startX:110, startY:0},
+				{width:55, height:53, startX:55, startY:0}
 				
 			]
 		},
