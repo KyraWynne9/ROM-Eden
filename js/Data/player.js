@@ -80,7 +80,7 @@ var playerData ={
 		attack:
 		{
 			fps:3,
-			cycle:false,
+			cycle:true,
 			//width:300,
 			frames:
 			[
