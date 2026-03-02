@@ -85,7 +85,8 @@ var playerData ={
 			frames:
 			[
 				{width:60, height:55, startX:240, startY:55},
-				{width:60, height:55, startX:300, startY:55}
+				{width:60, height:55, startX:300, startY:55},
+				{width:60, height:55, startX:360, startY:55}
 				
 			]
 		}
