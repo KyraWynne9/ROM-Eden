@@ -90,7 +90,7 @@ for(let i=0; i<100; i++)
 	//bullets[i].img.src="images/mrt.jpg"
 	bullets[i].makeSprite(playerData)
 	bullets[i].y=-10000
-	bullets[i].changeState(`walk`)
+	bullets[i].changeState(`projectile`)
 }
 
 //console.log(bullets)
@@ -141,7 +141,7 @@ gameStates[`level1`] = function()
 		wiz.canJump = false;
 		wiz.vy = wiz.jumpHeight;
 		wiz.changeState(`jump`)
-		//sounds.play(`splode`,1)
+		sounds.play(`jumpSound`,1)
 	}
 	shotTimer--;
 	if(shotTimer <=0)

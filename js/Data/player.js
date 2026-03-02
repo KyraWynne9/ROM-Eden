@@ -89,6 +89,18 @@ var playerData ={
 				{width:60, height:55, startX:360, startY:55}
 				
 			]
+		},
+		//The attack animation 
+		projectile:
+		{
+			fps:15,
+			cycle:true,
+			//width:300,
+			frames:
+			[
+				{width:60, height:55, startX:420, startY:55}
+				
+			]
 		}
 	}
 		
