@@ -46,6 +46,14 @@ function Level()
 				[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
 				
 			];
+
+			const soundStart = new Howl({
+    src: ["Mekanika.mp3"],
+    volume: 1,
+    loop: false,
+    rate: 1
+});
+
 	
 	// stores the platforms and walls
 	this.grid = [];
