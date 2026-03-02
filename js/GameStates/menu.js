@@ -26,16 +26,16 @@ gameStates[`menu`] =function(){
 		}
 
 		//Hover Effect Graffic
-		startButton.img.src = "button_start"
+		startButton.img.src = "button_start.png"
 	}
 	else
 	{
 		//Default Button Graphic
-		startButton.img.src = "button_normal"
+		startButton.img.src = "button_normal.png"
 	}
 	
 	menuBackground.drawStaticImage();
-	startButton.render()
+	startButton.drawStaticImage()
 }
 	
 	
